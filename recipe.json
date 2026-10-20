@@ -1,0 +1,156 @@
+{
+ "name": "gods",
+ "title": "Gods (The Bitmap Brothers, 1991; Archimedes conversion by Krisalis, 1992)",
+ "platform": "acorn-archimedes",
+ "doc": "A recipe: how to turn a user's own copy of the game into a native executable. It holds no game data: the inputs are recognised by content (see $SS/tools/weave.py). Two discs, merged into one !Gods (disc 2 first, so disc 1's !Run is the one kept); Intro and Gods are squeezed AIF images, unsqueezed by their own decompressors (tools/unpack.py).",
+ "inputs": {
+  "containers": {},
+  "formats": [
+   "adf"
+  ]
+ },
+ "discs": [
+  {
+   "name": "disc2",
+   "title": "Gods disc 2: the levels (001-004), their graphics (PI1), data (Dat) and the high score table",
+   "known_images": [
+    "86e2e99fcda7f364d5f29b9b8bc749228a2c05bccdee256d4b8443fbf56a5397"
+   ],
+   "key_files": {
+    "!Gods/001/calfilsa": "beaee485d731581608d57c741b21277cc2bc0ffa34ef9aa6ceaae1a1af8eb59a",
+    "!Gods/001/calfilsb": "c91498bb40c33115f313511ad5ef8e812bc3d5c3e8ed14206e8bc88396249dd3",
+    "!Gods/001/clevmapa": "b916889e9c9652cbc2f84204e1732c65d833b753a9581e0e3e92d103558b2a5a",
+    "!Gods/001/clevmapb": "2f7411e88fd65e35d7d7ed812ba8916c352e1fdb30cd942e01ef9de5c742d54d",
+    "!Gods/001/cobjects": "0c797b5d027e87801dd69c307bac29006a0defcdc5f7c354188cf51e772406ed",
+    "!Gods/001/cpats": "db3d08f603e225c4339a839cb517c7a564156a2ac09e9b48da2b3e77b099d1aa",
+    "!Gods/001/cweapons": "5a730217b19cf885f473dcee279721694b38ecd41aed8b0e1ee06c35792fa77d",
+    "!Gods/002/calfilsa": "549a2fa40fafa42db346bda2abbc587ffcb0c92fb0fcbaaccd5950aae850997e",
+    "!Gods/002/calfilsb": "38a9da169cd18313ba7be562c11dfac9725fd70c77d904ce02975cae09fd27ce",
+    "!Gods/002/clevmapa": "624b66f4cba18dc0096bb52b4dde71a4fb0596ec73b7907f71bd42b637044c15",
+    "!Gods/002/clevmapb": "ec36112abacb794f313c62181c5aa3933ed0156dc44b9a9acea526e83d836f06",
+    "!Gods/002/cobjects": "97e04f7a2959295692fbbcb0075a3e9134cdac079d3ecd96b0009beac1c3ccf2",
+    "!Gods/002/cpats": "ac35cec086000226a69511c6e63ff549321e8c8b2d5d6505cd75740ec5e74572",
+    "!Gods/002/cweapons": "aae2abafeeebe611f40d1aae36d9f7f88faeec07716486702e764fce812066e8",
+    "!Gods/003/calfilsa": "709822a17ed8c2fb5863a6d10f49a4e209dadff20687a7882faf13bba8c33efb",
+    "!Gods/003/calfilsb": "8551a8d2a8b1f7dce71c96c6d6e141da434ff0127c95484a927b1124a3486223",
+    "!Gods/003/clevmapa": "b68a3301a2619450cddc1dba393332236a6acce17e552437281565883aaf58ec",
+    "!Gods/003/clevmapb": "084ce714bcff6d42e7b5a4b93e851b613311a629b87ecb6df913c5ee56272ec0",
+    "!Gods/003/cobjects": "6da299c393e67e7bba5bddeea9802fe68dccaae96046785e38b9fc351545920b",
+    "!Gods/003/cpats": "4ebbe753530a76771afd80afd332ecabc73747bfe3c43d22e8b57b13bfa3b768",
+    "!Gods/003/cweapons": "d763eeb7e66075ecea7b1c2ac7da1d74f0acb3eafacdc30635a1aef51fc5e621",
+    "!Gods/004/calfilsa": "bacbf6d2cf000f7807ee2bc3012f80894bc0ff2b437c06fbeb6b024bab45d6b7",
+    "!Gods/004/calfilsb": "6d40ff9c99dcb74ffee08bc0dfdcfa222562f15250aeaa0580687a8fa35ba4f3",
+    "!Gods/004/clevmapa": "20e74b464fd91146b9b03674626a0108edad948c34f0d74b74def7530cca64d8",
+    "!Gods/004/clevmapb": "0bdbd014aa503fabe90680544cb0ff8cbd304af1de61d446b68e694ac500debf",
+    "!Gods/004/cobjects": "4da865cdb31005cfa09ff272db596877f19a23871aed0e1e34116287045bfc54",
+    "!Gods/004/cpats": "e33d2ce359bd43dc14ca67af8c1169f50d9dfe425068d718f3e242208015f8e3",
+    "!Gods/004/cweapons": "2dc40a1f67610ade5b119eca0bf9a2eeb17ccb52b005ee48c1865c39c929c66e",
+    "!Gods/Dat/amdragn": "54e299a9a7214033a6cb9ea25bd147db4a4fc88b83635c141a9ff0a6246666d7",
+    "!Gods/Dat/bezier": "913c6d23357e599484505bfef1b558449ab3cf69af199d87fc8429a540188343",
+    "!Gods/Dat/guard11": "4204c7d9faa5c561497fea4580d3880ab850760bf02def717cbe334e1f28d87e",
+    "!Gods/Dat/guard12": "433094987ecdcd7e567d772d0fe2de0265f1e876688f65e192a0dcdebe119283",
+    "!Gods/Dat/guard31": "e6c38e714995137cae0e31ed76325187bba4c92641cb8b2148b537e0a841a86f",
+    "!Gods/Dat/guard32": "345cf019c783ad6783ab23f7591074ecd794e6643595ce8c906c44483b8daac2",
+    "!Gods/Dat/guard41": "b8ea1c7d83896041f65b27fd85adec77f1d13e1a3f524f3bcdd9bd4f681fbf07",
+    "!Gods/Dat/guard42": "71e02a2bd9047995b89245d975b94d4216dd2472f18e5d2b1d297fe28c12fdde",
+    "!Gods/Dat/level1a": "0822e1dd5c286225cc944fc024b6ceab138fb902ac6406c7a82655774e54dab7",
+    "!Gods/Dat/level1b": "73dff3d3eb3f26b17daef7577c40be2a6d183aa60805e178bb1c93a1ae796599",
+    "!Gods/Dat/level2a": "a760177f4573bf84f0bbca40fdf87cf09d16be0c3e552aca709a6316931d302f",
+    "!Gods/Dat/level2b": "78bf3386c538decb560bed1dd925d5aaae34019f2cc9115570f99a4eb54a4e17",
+    "!Gods/Dat/level3a": "12106759ffe819e805e3ee7cab0486f87b4c0b5b371bc4729eecfeccdbbe0be1",
+    "!Gods/Dat/level3b": "9743f3f16a52506c6e7c63a73ca338bee4b8b0a361fa34463f116fea50e8498b",
+    "!Gods/Dat/level4a": "8abbdcfb96201a28ff140026ea4a7cb69ac712e1acac76d2bddb54b586e22429",
+    "!Gods/Dat/level4b": "4b6e71b13c874da3cb0ba871795ea2cbbbedfcbf01b0cb43b0ec400071a978ad",
+    "!Gods/Dat/obj1": "fc4d3eb2ad3711b11b1e3608804e017dc4b60c59aa468e3d184c14ed22bc4267",
+    "!Gods/Dat/obj2": "b00b344522a2c9680980c3860f50aa98361236119349f0f1aea7d4631387bcd4",
+    "!Gods/Dat/shopfnt": "1a4ad10917e4bb3e0a94bf85fffe4a0cb514cca254ed915df6f3295310dc2b38",
+    "!Gods/Dat/shopspr": "89bd34755e7ffce807e32d5d169162b2015b515bd8706365464451b1a4b3e6a6",
+    "!Gods/Dat/smlfnt": "1a4ad10917e4bb3e0a94bf85fffe4a0cb514cca254ed915df6f3295310dc2b38",
+    "!Gods/PI1/camdragn": "b9d20f1a26d557f9126a42d1d5f55c83799fd2ae673d56667983b668e090e12a",
+    "!Gods/PI1/cbackscr": "ed0965baa5bbe612198db19ace6420f4b1ba3b6bb2f787fdae903fde1539acbb",
+    "!Gods/PI1/cbits1a": "e9bbb023c111f5cc060979a7ca7d397e2266da77fa3dbf63021951354df8a50e",
+    "!Gods/PI1/cbits1b": "fad21dd859ab1641715a44f796f99f21e940a10e0ca08c031721ed455c0cac5e",
+    "!Gods/PI1/cbits2a": "2fdee6a000dd05eb17144b439d53e4e56b3b4224abaa2b4ec92adc91772556b8",
+    "!Gods/PI1/cbits2b": "2af08340ce3e1bc684feebc93ccc87fa471b4e0a4818316796158ab3ac09527c",
+    "!Gods/PI1/cbits3a": "67263ad99bf52aa1c0bc464162016f3cafc5066a4d1bc401e7dc9e996e5a38da",
+    "!Gods/PI1/cbits3b": "272e2a928f7b6f498016b687c139d0913fc72ce4f6a7aee59454aaa5b3d480c8",
+    "!Gods/PI1/cbits4a": "b0d6606f419cc0d49f5f93e216fb482f8b246ad16d29e55ecb545bf98092f07e",
+    "!Gods/PI1/cbits4b": "541326d6259e4cbf830655dd4aec6523730f1e97b5be5c8665fcff017aacbfc4",
+    "!Gods/PI1/cguard11": "df750ba885cd911c0b987a8ec75f5ae830ba57f4d53e2337ab86bfe6c054e8b6",
+    "!Gods/PI1/cguard12": "d9cbfefa70b1fb26657a81088fea22ff8293b10c98fcdab0819438737e027b17",
+    "!Gods/PI1/cguard31": "1b8cc78ab09e33d6894d945f414e14faaa4e3c5229329780fbfd08fe8e364c00",
+    "!Gods/PI1/cguard32": "c72a054c3ed5e955d97aa6b1138643b27fb7157ed48a14a0ed8c5e5d66da0536",
+    "!Gods/PI1/cguard41": "6eb37380b4b49c46da47fecf3b7bf4593cf2ae88a150426e56371d67a5587b36",
+    "!Gods/PI1/cguard42": "a680c994f236bc862155ab93c16b5eba8d1447992c2e66bd756b5ca6a395d459",
+    "!Gods/PI1/clevel1a": "5fc16a1443bd13bf19a417c53a35eabb64e518094f4e983f072b6001abc91c38",
+    "!Gods/PI1/clevel1b": "c4849fdd7584035b936dd52542d98d9241c10f9fab894f05646122dc816827a5",
+    "!Gods/PI1/clevel2a": "7c091017ecfe5a2c4272af485ef96124739f79115f2449cae6eb12eb161bb85f",
+    "!Gods/PI1/clevel2b": "4836b4be57e39be848b6685a4e95ed93731c0ceca08cc1a305f8494bba762cd2",
+    "!Gods/PI1/clevel3a": "082fb187995e3519f09fa31a061f906360e682f5a7257b1188c526b2ead9341f",
+    "!Gods/PI1/clevel3b": "a1368224cd040f1091a36f55bdf443cc7918ed12798f5d859e718ffc76b6c2c3",
+    "!Gods/PI1/clevel4a": "3873f9acdb9131060fc4cd92df5938d3b40a98187610265395ee57058a229bd9",
+    "!Gods/PI1/clevel4b": "3a9063e6952ceb179d2cbb6d1380b96b8602be88469b3c924ece2c37215551ca",
+    "!Gods/PI1/cobj1": "c92f2a1c0064ec36c443d3ff5848c2cf3f7635b31fc83c082943b7454c2294af",
+    "!Gods/PI1/cobj2": "22091d1b29d324da51b16890a143e48bb61355fb059ec9dd08cc3d3b10a91ef3",
+    "!Gods/PI1/cpayoff": "95440143f4d1221deb3871bfc021a44a894acc5dba2e59ee31e61a164f8341e4",
+    "!Gods/PI1/cshop": "5a36746fefd262bcbb45f40ecc4a09c99dd2edd37a60763acbed2d7dd2fffcb2",
+    "!Gods/PI1/cshopfnt": "53ab4693feaed2a51db7fdf3967b4ca51534e384f4d9564b87dc8551996e4121",
+    "!Gods/PI1/cshopspr": "1a32bc199d2646937daae64374d91a628478e09a3ff7d50f337f9af979be4fce",
+    "!Gods/PI1/csmlfnt": "c4119b0d463b59b95a8ac9066c22b9ad2d0c7fd59679cd3b983b1135ba5ae541",
+    "!Gods/PI1/cxtra1b": "e0d23dc6705cb717ef192f269c3313154b14fa5c3c30f8a49251822ba6a6b778",
+    "!Gods/PI1/cxtra2a": "95f29b0ed3f1129e5aea0c557bbdb4f6bb6f1315dd876e1e8abc991037449ee9",
+    "!Gods/PI1/cxtra3a": "2e3d954ce35be3876dbbf76691c787a6cc1790ebdd717c5e0c8be27588cfe82e",
+    "!Gods/PI1/cxtra4b": "155ffdfdd7b105ecd13b02ff38044e2e01b0a87a9cebd0de495661d1629efb94"
+   },
+   "game_dirs": [
+    "!Gods"
+   ]
+  },
+  {
+   "name": "disc1",
+   "title": "Gods disc 1: !Gods (Initmem, Intro, Gods, the title fonts and pictures)",
+   "known_images": [
+    "be81e5878e30395c9685690ad9b3017f2d19bad314f60de00c3b58e684f7b889"
+   ],
+   "key_files": {
+    "!Gods/!Run": "fef93dfd7b971ce2143a6f88c935bf533697d24a0ba33af73c7d91cf92d25c59",
+    "!Gods/!Sprites": "1fa8a4dab057594293223b28ee40c2e1511c79bf79cf181e2b3e66c8bb933658",
+    "!Gods/Dat/always1": "206c930fbcf884398241dbb9b5d54dfc6c2d5fd1eaf1a967cf57cb346cc31f30",
+    "!Gods/Dat/always2": "4d90b7b84a22a563321f3ac32c30fcf21b209d4b936767ca6f9197bdb4ea4f31",
+    "!Gods/Dat/always3": "1a15890bcab7c505b88c07901a147f7173015347a1d8b5811035b00d7ba1ab0a",
+    "!Gods/Dat/godfont": "fba0f88d8101fdb2c91119d005850d509ea77c63c113131d1db8fdcb8dd53208",
+    "!Gods/Dat/smlfnt": "1a4ad10917e4bb3e0a94bf85fffe4a0cb514cca254ed915df6f3295310dc2b38",
+    "!Gods/Gods": "3d70a28317ffff33dd8d6217ea440c2a3709761ade0681c46d35ceaf69a3ed5b",
+    "!Gods/Initmem": "e375b66111911305d3b1c28593592120a61e95a0932cd3949f7530ded9d12bc3",
+    "!Gods/Intro": "e9f175111ceddf55f6d6987feaea9934cc1968802dc3bc0bbb568093777deb4b",
+    "!Gods/PI1/calways1": "1244d3ffa8f0bb858151d28ccf3ba38836260ab848c9ed5888a8faa22a6da960",
+    "!Gods/PI1/calways2": "736639c848c4eced167fd04827758bb1f462bdb00d0b56bf970b8640568669cf",
+    "!Gods/PI1/calways3": "4b50df9e3f01eef19a912434224aee7d7c10afaf9103d4f40b3d1fe69dcf8efa",
+    "!Gods/PI1/cbackscr": "ed0965baa5bbe612198db19ace6420f4b1ba3b6bb2f787fdae903fde1539acbb",
+    "!Gods/PI1/cgodfont": "988bbb80229b6d74ce958e3d3206aa06867975485a926c5e8471c48926f931fc",
+    "!Gods/PI1/csmlfnt": "c4119b0d463b59b95a8ac9066c22b9ad2d0c7fd59679cd3b983b1135ba5ae541"
+   },
+   "game_dirs": [
+    "!Gods"
+   ]
+  }
+ ],
+ "build": [
+  "python3 -I \"$WEAVE\" extract . INPUTS",
+  "python3 -I tools/unpack.py",
+  "make -C recomp regen",
+  "make -C recomp"
+ ],
+ "output": "recomp/gods",
+ "requires": {
+  "superspider": "~/stuff/superspider, or $SUPERSPIDER (dune build): analyse, gen, tools/weave.py, tools/arm2.py",
+  "libroger": "~/stuff/libroger, or make ROGER=...",
+  "host": [
+   "python3",
+   "ocaml + dune",
+   "gcc",
+   "SDL3 (pkg-config sdl3)"
+  ]
+ },
+ "run": "cd recomp && ./gods"
+}

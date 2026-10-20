@@ -1,0 +1,24 @@
+# Entry points the analysis can't find (with ../unpacked/gods.roots: the
+# object handlers, written by ../tools/unpack.py)
+
+# The returns from two dispatchers that jump to a handler whose address
+# they read from an object (big-endian, byte by byte), leaving their
+# caller's return address on the stack for the handler to pop (&2d808 and
+# &2de94: stmdb sp!,{r11,lr} ... ldmia sp!,{r11} ; mov pc,r8). Each is
+# called from one place.
+&2d27c	# after bl &2d808 at &2d278
+&2da30	# after bl &2de94 at &2da2c
+
+# &1d340: mov pc,r9 with r9 = &1d3bc - 12*n (n >= 1, from the workspace's &408): into a run of
+# ten blocks of ldrb r3,[r8],#1 ; teq r3,#0 ; bne &1d3d0 that ends at &1d3bc, entered part way
+# through (each bne's offset differs, so they aren't identical words); every block start
+&1d3b0	# block 1 before &1d3bc
+&1d3a4	# block 2 before &1d3bc
+&1d398	# block 3 before &1d3bc
+&1d38c	# block 4 before &1d3bc
+&1d380	# block 5 before &1d3bc
+&1d374	# block 6 before &1d3bc
+&1d368	# block 7 before &1d3bc
+&1d35c	# block 8 before &1d3bc
+&1d350	# block 9 before &1d3bc
+&1d344	# block 10 before &1d3bc
